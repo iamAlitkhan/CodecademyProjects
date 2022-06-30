@@ -1,0 +1,87 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 25px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+a.gold {
+  color: gold;
+}
+
+.intro {
+  background-color: paleturquoise;
+  color: chocolate;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+#drakeImage {
+  height: 250px;
+  width: 400px;
+  padding: 20px;
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+#drakeText {
+  color: crimson;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+#sayings ul {
+  list-style-type: none;
+}
+
+.avatar {
+  background-image: url('../images/drake.jpeg');
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+aside {
+  text-align: center;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p aside img {
+  width: 100px;
+}
